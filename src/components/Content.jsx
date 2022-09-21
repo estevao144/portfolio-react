@@ -9,6 +9,8 @@ class Content extends React.Component {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/experiences" element={<Contact />} />
+        <Route exact path="/about" element={<Contact />} />
       </Routes>
     );
   }
